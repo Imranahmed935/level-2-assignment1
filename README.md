@@ -26,7 +26,7 @@ const person: Person = {
 };
 
 
-Types
+***Types
 Types, on the other hand, are far more flexible. They can represent not only objects but also primitive types, arrays, tuples, and even unions and intersections. A type alias allows you to create complex type structures, including unions (e.g., string | number) and intersections (e.g., A & B).
 
 One important thing to note is that types cannot be merged in the same way interfaces can. However, types can be used to represent more complex structures, which interfaces may not handle as easily.
@@ -44,5 +44,5 @@ Use types when you need more flexibility, such as representing unions, intersect
 2. The keyof Keyword: Accessing Object Keys Safely
 The keyof keyword is one of TypeScript's powerful tools for working with object keys. It allows you to retrieve the keys of an object type and use them as a union type. This feature ensures that when you're working with object keys, you only use valid keys, preventing potential runtime errors due to accessing non-existent properties.
 
-What is keyof?
+***What is keyof?
 The keyof operator generates a union type of all the keys of an object. This is useful when you want to make sure that a function or variable only accepts a key that exists on a given object.
